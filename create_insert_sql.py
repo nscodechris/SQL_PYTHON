@@ -1,4 +1,6 @@
 
+# ALLOWED TO EDIT VERSION!
+
 # importent imports to be used in program
 
 import psycopg2
@@ -203,3 +205,4 @@ class TableThree(MyDataBase):
 bicycle_shop_table_helmet = TableOne('bicycle_shop', 'bicycle_model')
 bicycle_shop_table_models = TableTwo('bicycle_shop', 'bicycle_helmets')
 bicycle_shop_table_stuff = TableThree('bicycle_shop', 'bicycle_stuff')
+
